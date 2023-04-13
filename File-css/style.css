@@ -20,37 +20,39 @@ nav{
 section.size1{
     border: 2px solid black;
     border-top: 0px;
-    height: 420px;
+    height: 558px;
     padding-top: 70px;
+    background-color: rgb(190, 215, 246);
 }
 
 .container1.flex{
-    border-right:  2px solid black;
     border-top: 2px solid black;
-    height: 213px;
+    height: 285px;
     width: 100%;
     display: flex;
 }
 
 div.testo1{
-    width: calc(100% / 2.7) ;
+    width: calc(100% / 3) ;
     height: 100%;
     border-right: 2px solid black;
     overflow: visible;
 }
 
-
-
+div.immagine1{
+    width: calc(100% / 1.5);
+    height: 100%;
+    
+}
 
 section.size1 h1{
-    font-size: 2rem; 
-    text-align: center;
+    font-size: 3.5rem; 
     margin-bottom:50px;
 }
 
 section.size1>div {
     width: 68%;
-    height: 350px;
+    height: 488px;
     border: 2px solid black;
     margin: 0 auto;
 }
