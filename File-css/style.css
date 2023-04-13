@@ -24,6 +24,30 @@ section.size1{
     padding-top: 70px;
 }
 
+.container1.flex{
+    border-right:  2px solid black;
+    border-top: 2px solid black;
+    height: 213px;
+    width: 100%;
+    display: flex;
+}
+
+div.testo1{
+    width: calc(100% / 2.7) ;
+    height: 100%;
+    border-right: 2px solid black;
+    overflow: visible;
+}
+
+
+
+
+section.size1 h1{
+    font-size: 2rem; 
+    text-align: center;
+    margin-bottom:50px;
+}
+
 section.size1>div {
     width: 68%;
     height: 350px;
