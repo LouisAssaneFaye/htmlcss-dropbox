@@ -73,3 +73,44 @@ section.size4>div{
     margin: 0 auto;
 }
 
+section.size6{
+    margin-top: 140px;
+    border: 2px solid black;
+    height: 310px;
+}
+
+section.size6>div{
+    width: 68%;
+    height: 175px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-top: 0;
+}
+
+section.size7{
+    height: 485px;
+    border-bottom: 0;
+}
+
+section.size7 div:first-child{
+    height: 300px;
+    border-bottom: 2px solid black;
+}
+
+section.size7 div:last-child{
+    height: 185px;
+    border: 2px solid black;
+    border-top: 0;
+
+}
+
+section.size8{
+    height: 420px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+section.size9{
+    height: 300px;
+    border: 2px solid black;
+}
