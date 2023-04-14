@@ -20,29 +20,45 @@ nav{
 section.size1{
     border: 2px solid black;
     border-top: 0px;
-    height: 558px;
+    height: 846px;
     padding-top: 70px;
     background-color: rgb(190, 215, 246);
 }
 
 .container1.flex{
     border-top: 2px solid black;
-    height: 285px;
+    height: 570px;
     width: 100%;
     display: flex;
 }
 
 div.testo1{
-    width: calc(100% / 3) ;
+    width: 40% ;
     height: 100%;
-    border-right: 2px solid black;
+    border: 2px solid black;
     overflow: visible;
 }
 
 div.immagine1{
-    width: calc(100% / 1.5);
+    width: 60% ;
     height: 100%;
-    
+    border: 2px solid black;
+}
+
+span.tasto_blu{
+    background-color: rgb(12, 84, 210);
+    color: white;
+    display: inline-block;
+    width: 62%;
+    height: 10%;
+    text-align: center;
+    line-height: 42.45px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+div.testo1:last-child{
+    height: 10px;
 }
 
 section.size1 h1{
@@ -52,7 +68,7 @@ section.size1 h1{
 
 section.size1>div {
     width: 68%;
-    height: 488px;
+    height: 776px;
     border: 2px solid black;
     margin: 0 auto;
 }
