@@ -9,11 +9,11 @@ body{
 }
 
 header{
-    height: 65px;
+    height: 70px;
 }
 
 nav{
-    height: 65px;
+    height: 70px;
     border: 2px solid black;
 }
 
@@ -58,14 +58,14 @@ section.size1>div {
 }
 
 section.size2{
-    height: 550px;
+    height: 698px;
     border: 2px solid black;
     border-top: 0;
-    padding-top: 130px;
+    padding-top: 140px;
 }
 
 section.size2>div{
-    height: 420px;
+    height: 558px;
     border: 2px solid black;
     width: 68%;
     margin: 0 auto;
@@ -74,69 +74,70 @@ section.size2>div{
 section.size3{
     border: 2px solid black;
     border-top: 0px;
-    height: 185px;
+    height: 323px;
     padding-top: 55px;
 }
 
 section.size3>div{
-    height: 130px;
+    height: 268px;
     border: 2px solid black;
     width: 68%;
     margin: 0 auto;
 }
 
 section.size4{
-    height: 380px; 
+    height: 518px; 
     border: 2px solid black;  
     border-top: 0px ;
-    padding-top: 135px;
+    padding-top: 145px;
 }
 
 section.size4>div{
-    height: 245px;
+    height: 373px;
     border: 2px solid black;
     width: 68%;
     margin: 0 auto;
 }
 
 section.size6{
-    margin-top: 140px;
+    margin-top: 145px;
     border: 2px solid black;
-    height: 310px;
+    height: 448px;
 }
 
 section.size6>div{
     width: 68%;
-    height: 175px;
+    height: 258px;
     margin: 0 auto;
     border: 2px solid black;
     border-top: 0;
 }
 
 section.size7{
-    height: 485px;
+    height: 628px;
     border-bottom: 0;
+    border-top: 0;
 }
 
 section.size7 div:first-child{
-    height: 300px;
-    border-bottom: 2px solid black;
+    height: 360px;
+    border: 2px solid black;
 }
 
 section.size7 div:last-child{
-    height: 185px;
+    height: 268px;
     border: 2px solid black;
     border-top: 0;
 
 }
 
 section.size8{
-    height: 420px;
+    height: 558px;
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
 
 section.size9{
-    height: 300px;
+    height: 360px;
     border: 2px solid black;
 }
