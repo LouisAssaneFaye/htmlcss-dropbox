@@ -14,6 +14,25 @@ header{
 
 nav{
     height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.flex{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+li{
+    margin-right: 1rem;
+}
+
+li.tasto_blu{
+    background-color:rgb(12, 84, 210);
+    width: 3.6rem;
+    color: white;
+    text-align: center;
 }
 
 section.size1{
@@ -53,7 +72,7 @@ span.tasto_blu{
     width: 62%;
     height: 10%;
     text-align: center;
-    line-height: 42.45px;
+    line-height: 55.4px;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
 }
@@ -63,7 +82,7 @@ div.testo1:last-child{
 }
 
 section.size1 h1{
-    font-size: 3.5rem; 
+    font-size: 4.2rem; 
     margin-bottom:50px;
 }
 
