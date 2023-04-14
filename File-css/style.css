@@ -14,11 +14,9 @@ header{
 
 nav{
     height: 70px;
-    border: 2px solid black;
 }
 
 section.size1{
-    border: 2px solid black;
     border-top: 0px;
     height: 829px;
     padding-top: 70px;
@@ -26,7 +24,6 @@ section.size1{
 }
 
 .container1.flex{
-    border-top: 2px solid black;
     height: 554px;
     width: 100%;
     display: flex;
@@ -35,14 +32,12 @@ section.size1{
 div.testo1{
     width: 40% ;
     height: 100%;
-    border: 2px solid black;
     overflow: visible;
 }
 
 div.immagine1{
     width: 60% ;
     height: 100%;
-    border: 2px solid black;
 }
 
 div.immagine1>img{
@@ -75,7 +70,6 @@ section.size1 h1{
 section.size1>div {
     width: 68%;
     height: 759px;
-    border: 2px solid black;
     margin: 0 auto;
 }
 
