@@ -235,27 +235,62 @@ div.container3_right span{
 }
 
 
-div.container_right{
+div.container3_right{
     width: 32%;
     height: 100%;
     border: 1px solid black;
-    padding-top: 2rem;
-    padding-left: 1.5rem;
 }
 
 section.size4{
-    height: 854px; 
+    height: 780px; 
     border: 2px solid black;  
     border-top: 0px ;
     padding-top: 210px;
 }
 
-section.size4>div{
-    height: 644px;
+
+section.size4>div.container4.flex{
+    height: 570px;
     border: 2px solid black;
     width: 68%;
     margin: 0 auto;
+    display: flex;
 }
+
+div.container4_right{
+    width: 60%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+div.container4_right img{
+    width: 100%;
+    height: 100%;
+}
+
+div.container4_left{
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+    padding-top: 3.5rem;
+    padding-left: 1.5rem;
+    
+}
+
+div.container4_left h2{
+    margin-bottom: 1rem;
+}
+
+span.tasto_bordergray{
+    display: inline-block;
+    margin-top: 1.5rem;
+    border: gray 2px solid;
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem ;
+}
+
 
 section.size6{
     margin-top: 280px;
