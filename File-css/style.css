@@ -111,7 +111,7 @@ div.container2_hat{
     border: 2px solid black;
 }
 
-div.container2_hat h1{
+div.container2_hat h2{
     font-size: 2.35rem;
     margin-bottom: 2.5rem;
 }
@@ -171,7 +171,7 @@ div.container2.flex ul{
     list-style-type: none;
 }
 
-div.container2.flex h3{
+div.container2.flex h4{
     margin-bottom: 2rem;
 }
 
@@ -215,11 +215,11 @@ div.container3_left{
     padding-top: 2rem;
 }
 
-div.container3_left h2{
+div.container3_left h3{
     margin-bottom: 1.5rem;
 }
 
-div.container3_left h3{
+div.container3_left h4{
     margin-bottom: 3rem;
 }
 
@@ -277,7 +277,7 @@ div.container4_left{
     
 }
 
-div.container4_left h2{
+div.container4_left h3{
     margin-bottom: 1rem;
 }
 
@@ -290,6 +290,64 @@ span.tasto_bordergray{
     text-align: center;
     line-height: 3rem ;
 }
+
+section.size5{
+    height: 1352px;
+    border-top: 0;
+    padding-top: 200px;
+}
+
+section.size5>div{
+    height: 1151px;
+    width: 68%;
+    margin: 0 auto;
+}
+
+section.size5 h2{
+    font-size: 2.35rem;
+}
+
+section.size5 div.container5_hat{
+    height: 10%;
+    
+}
+
+section.size5 div.container5{
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.size5 div.container5_left{
+    width: 32% ;
+}
+
+section.size5 div.up,section.size5 div.dowm{
+    height: 50%;
+}
+
+
+div.up img,div.down img{
+    width: 100%;
+    height: 50%;
+}
+
+section.size5 div.container5_center{
+    width: 32% ;
+}
+
+section.size5 div.container5_left{
+    width: 32% ;
+}
+
+section.size5 div.container5_right{
+    width: 32% ;
+}
+
+section.size5 h3{
+    margin-bottom: 2rem;
+}
+
 
 
 section.size6{
