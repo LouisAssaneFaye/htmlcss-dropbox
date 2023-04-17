@@ -349,18 +349,20 @@ section.size5 h3{
 }
 
 
-
 section.size6{
-    margin-top: 280px;
-    border: 2px solid black;
-    height: 899px;
+    margin-top: 160px;
+    height: 343px;
+}
+
+section.size6 h2{
+    font-size: 2.35rem;
+    margin-bottom: 3rem;
 }
 
 section.size6>div{
     width: 68%;
-    height: 528px;
+    height: 344x;
     margin: 0 auto;
-    border: 2px solid black;
     border-top: 0;
 }
 
