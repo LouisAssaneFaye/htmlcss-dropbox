@@ -367,19 +367,19 @@ section.size6>div{
 }
 
 section.size7{
-    height: 1443px;
+    height: 933px;
     border-bottom: 0;
     border-top: 0;
     border: 2px solid black;
 }
 
 section.size7 div:first-child{
-    height: 805px;
+    height: 590px;
     border: 2px solid black;
 }
 
 section.size7 div:last-child{
-    height: 638px;
+    height: 343px;
     border: 2px solid black;
     border-top: 0;
 
@@ -392,6 +392,6 @@ section.size8{
 }
 
 section.size9{
-    height: 805px;
+    height: 590px;
     border: 2px solid black;
 }
