@@ -94,21 +94,18 @@ section.size1>div {
 
 section.size2{
     height: 1352px;
-    border: 2px solid black;
     border-top: 0;
     padding-top: 200px;
 }
 
 section.size2>div{
     height: 1151px;
-    border: 2px solid black;
     width: 68%;
     margin: 0 auto;
 }
 
 div.container2_hat{
     height: 20%;
-    border: 2px solid black;
 }
 
 div.container2_hat h2{
@@ -151,8 +148,8 @@ li.li_white{
 
 div.container2.flex header{
     height: 7%;
-    border: 2px solid black;
     text-align: center;
+    border-bottom: 2px solid black;
 }
 
 div.container2.flex main{
@@ -181,7 +178,6 @@ div.container2.flex li{
 
 
 section.size3{
-    border: 2px solid black;
     border-top: 0px;
     height: 401px;
     padding-top: 100px;
@@ -189,28 +185,26 @@ section.size3{
 
 section.size3>div{
     height: 301px;
-    border: 2px solid black;
     width: 68%;
     margin: 0 auto;
+    border: 2px solid black;
 }
 
 div.container3_hat{
     height: 12%;
-    border: 1px solid black;
     text-align: center;
     padding-top: 0.5rem ;
+    border-bottom: 2px solid black;
 }
 
 div.container3.flex{
     height: 88%;
-    border: 1px solid black;
     display: flex;
 }
 
 div.container3_left{
     height: 100%;
     width: 68%;
-    border: 1px solid black;
     padding-left: 2rem;
     padding-top: 2rem;
 }
@@ -238,12 +232,10 @@ div.container3_right span{
 div.container3_right{
     width: 32%;
     height: 100%;
-    border: 1px solid black;
 }
 
 section.size4{
-    height: 780px; 
-    border: 2px solid black;  
+    height: 780px;   
     border-top: 0px ;
     padding-top: 210px;
 }
@@ -251,7 +243,6 @@ section.size4{
 
 section.size4>div.container4.flex{
     height: 570px;
-    border: 2px solid black;
     width: 68%;
     margin: 0 auto;
     display: flex;
@@ -260,7 +251,6 @@ section.size4>div.container4.flex{
 div.container4_right{
     width: 60%;
     height: 100%;
-    border: 1px solid black;
 }
 
 div.container4_right img{
@@ -271,7 +261,6 @@ div.container4_right img{
 div.container4_left{
     width: 40%;
     height: 100%;
-    border: 1px solid black;
     padding-top: 3.5rem;
     padding-left: 1.5rem;
     
@@ -370,13 +359,11 @@ section.size7{
     height: 697px;
     border-bottom: 0;
     border-top: 0;
-    border: 2px solid black;
     background-color: rgba(223, 219, 214, 0.729);
 }
 
 .container7-up.flex{
     height: 430px;
-    border: 2px solid black;
     display: flex;
     justify-content: space-between;
 }
@@ -389,7 +376,6 @@ section.size7{
 
 .container7-down{
     height: 264px;
-    border: 2px solid black;
     border-top: 0;
     background-color: rgb(190, 215, 246);
 }
@@ -417,7 +403,6 @@ section.size7{
 }
 
 div.container7-up>*{
-    border: 2px solid black;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -441,7 +426,6 @@ div.container7-up>div:nth-child(2){
 .container7-left-up>div{
     height: 50%;
     width: 50%;
-    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -472,7 +456,6 @@ div.container7-up>div:nth-child(2){
 .container7-right-up>div{
     height: 50%;
     width: 50%;
-    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -510,10 +493,6 @@ div.container7-up>div:nth-child(2){
     background-color: rgba(254, 229, 43, 0.967);
 }
 
-section.size8{
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-}
 
 div.container8 *{
     margin-bottom: 2.5rem;
@@ -537,7 +516,6 @@ div.container8>h2{
 
 section.size9{
     height: 590px;
-    border: 2px solid black;
     background-color: black;
     color: white;
 }
@@ -546,7 +524,6 @@ section.size9{
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    border: 2px solid white;
     display: flex;
     justify-content: space-between;
 }
