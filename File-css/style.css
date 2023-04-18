@@ -373,16 +373,50 @@ section.size7{
     border: 2px solid black;
 }
 
-section.size7 div:first-child{
+.container7-up.flex{
     height: 590px;
     border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
 }
 
-section.size7 div:last-child{
+
+
+.container7-down.flex{
     height: 343px;
     border: 2px solid black;
     border-top: 0;
+    display: flex;
+    background-color: rgb(190, 215, 246);
+    align-items: center;
+    justify-content: center;
 
+
+}
+
+.container7-down.flex>h2{
+    font-size: 2.35rem;
+    color: rgb(136, 52, 52);
+}
+
+div.container7-up>*{
+    width: calc(100% / 3);
+    border: 2px solid black;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container7-left-up>div{
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.container7-right-up>div{
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
 }
 
 section.size8{
