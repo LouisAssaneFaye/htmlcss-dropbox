@@ -367,14 +367,15 @@ section.size6>div{
 }
 
 section.size7{
-    height: 933px;
+    height: 697px;
     border-bottom: 0;
     border-top: 0;
     border: 2px solid black;
+    background-color: rgba(223, 219, 214, 0.729);
 }
 
 .container7-up.flex{
-    height: 590px;
+    height: 430px;
     border: 2px solid black;
     display: flex;
     justify-content: space-between;
@@ -383,13 +384,13 @@ section.size7{
 
 
 .container7-down.flex{
-    height: 343px;
+    height: 264px;
     border: 2px solid black;
     border-top: 0;
     display: flex;
     background-color: rgb(190, 215, 246);
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
 
 }
@@ -397,26 +398,110 @@ section.size7{
 .container7-down.flex>h2{
     font-size: 2.35rem;
     color: rgb(136, 52, 52);
+    margin-left: 13rem;
+}
+
+.container7-down.flex>span{
+    background-color: white;
+    width: 15rem;
+    height: 2rem;
+    text-align: center;
+    line-height:2rem ;
+    margin-right: 13rem;
 }
 
 div.container7-up>*{
-    width: calc(100% / 3);
     border: 2px solid black;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
+
+div.container7-up>div:first-child{
+    width: 430px;
+}
+
+div.container7-up>div:last-child{
+    width: 430px;
+}
+
+div.container7-up>div:nth-child(2){
+    flex-direction: column;
+    padding-top:1rem ;
+    padding-left:0 ;
+}
+
 .container7-left-up>div{
     height: 50%;
     width: 50%;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container7-left-up img{
+    height: 30%;
+    width: 60%;
+    filter: invert(100%);
+}
+
+.container7-right-up img{
+    height: 30%;
+    width: 60%;
+    filter: invert(100%);
+}
+
+.container7-center-up img{
+    height: 15%;
+    width: 45%;
+    margin-left: -1.5rem;
+}
+
+.container7-center-up>*{
+    margin-bottom: 1.5rem;
 }
 
 .container7-right-up>div{
     height: 50%;
     width: 50%;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green_square{
+    background-color: rgb(144, 179, 144);
+}
+
+.bordeux_square{
+    background-color: rgb(85, 0, 0);
+}
+
+.blue_square{
+    background-color: rgb(14, 127, 193);
+}
+
+.red_square{
+    background-color: rgb(230, 35, 35);
+}
+
+.darkred_square{
+    background-color: rgb(191, 18, 18);
+}
+
+.azure_square{
+    background-color: rgb(190, 215, 246);
+}
+
+.darkblue_square{
+    background-color: rgb(16, 16, 131) ;
+}
+
+.yellow_square{
+    background-color: rgba(254, 229, 43, 0.967);
 }
 
 section.size8{
